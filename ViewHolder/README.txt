@@ -1,0 +1,1 @@
+一个用来优化listView复用itemView代码的工具类， example中有示例代码。

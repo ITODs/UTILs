@@ -1,0 +1,75 @@
+//导入compile 'com.getbase:floatingactionbutton:1.10.1'
+//竖立FloatingActionsMenu代码
+<com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/markers_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="100dp"
+        fab:fab_addButtonColorNormal="@color/colorPrimary"
+        fab:fab_addButtonColorPressed="@color/Goldenrod"
+        fab:fab_addButtonPlusIconColor="@color/Gold"
+        android:background="@drawable/fab_label_background"
+        fab:fab_labelsPosition="left">
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/marker_photo"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/Goldenrod"
+            fab:fab_size="normal"
+            fab:fab_icon="@mipmap/ic_photo"
+            fab:fab_title="流动测速"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/marker_work"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/Goldenrod"
+            fab:fab_size="normal"
+            fab:fab_icon="@mipmap/ic_work"
+            fab:fab_title="实时施工"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/marker_accident"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/Goldenrod"
+            fab:fab_size="normal"
+            fab:fab_icon="@mipmap/ic_accident"
+            fab:fab_title="突发事故"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/marker_police"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/Goldenrod"
+            fab:fab_size="normal"
+            fab:fab_icon="@mipmap/ic_poloce"
+            fab:fab_title="交警查车"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/type_rev"
+            android:visibility="gone"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/Goldenrod"
+            fab:fab_size="normal"
+            fab:fab_icon="@mipmap/ic_marker_type"
+            fab:fab_title="同向车道"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/type_syn"
+            android:visibility="gone"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/Goldenrod"
+            fab:fab_size="normal"
+            fab:fab_icon="@mipmap/ic_marker_type"
+            fab:fab_title="反向车道"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
